@@ -100,6 +100,11 @@
 }
 
 @media screen and (max-width: 473px) {
+    .Form input{
+        width: 72vw;
+    }
+    
+    
     /* ABOUT */
     .col-lg-4 img {
         left: 20vw;
