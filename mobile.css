@@ -1,0 +1,164 @@
+@media screen and (max-width: 1394px) {
+    .dropdown-position {
+        height: 39px;
+        position: relative;
+        right: 5px;
+        top: 1px;
+    }
+    .dropdown-menu {
+        position: absolute;
+        bottom: 37px;
+        left: 145px;
+    }
+    .col-lg-4 {
+        margin: 40px 0px;
+    }
+    .col-lg-4 img {
+        position: relative;
+        left: 6vw;
+    }
+    .trainer-name {
+        position: relative;
+        left: -1vw;
+        display: flex;
+        justify-content: center;
+    }
+    .read-more-btn {
+        display: flex;
+        justify-content: center;
+    }
+    /* OUR BLOGS
+    .card img{
+        width: 27vw;
+    } */
+    /* CONTACT */
+    .contact-form {
+        height: 60vh;
+    }
+    .information {
+        left: 3vw;
+        bottom: 47vh;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .content {
+        margin-top: 65px;
+    }
+    /* ABOUT */
+    .trainer-name {
+        display: flex;
+        justify-content: center;
+    }
+    .col-lg-4 img {
+        position: relative;
+        left: 30vw;
+    }
+    /* CATEGORIES */
+    .all-cards-c {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-text-c {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .card-c {
+        margin: 13px -9px;
+    }
+    /* OUR BLOGS */
+    .part-one-blogs, .part-two-blogs {
+        margin: 35px -8vw;
+    }
+    .contact-form {
+        height: 103vh;
+    }
+    .form {
+        position: relative;
+        left: 20vw;
+        width: 51vw;
+    }
+    .form-box-2 {
+        padding: 16px 4px;
+        margin: 4px 17px;
+    }
+    .form-box-3 {
+        margin: 13px 0px;
+        position: relative;
+        left: 20vw;
+    }
+    .form-box-1, .form-box-2, .form-box-3 {
+        width: 50vw;
+        margin: 0px;
+    }
+    .information {
+        top: 8vh;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    /* ABOUT */
+    .col-lg-4 img {
+        left: 20vw;
+    }
+    /* CATEGORIES */
+    #categories {
+        font-size: 35px;
+    }
+    .all-cards-c {
+        display: block;
+        margin: 25px 45px;
+    }
+    .card-c {
+        margin: 35px -9px;
+    }
+    .card-text-c {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    /* BLOGS */
+    .part-one-blogs{
+        display: block;
+    }
+    .part-two-blogs{
+        display: none;
+    }
+    /* CONTACT */
+    /* .contact-form{
+        height: 148vh;
+    } */
+    .form {
+        left: 16vw;
+    }
+    .form-box-3 {
+        position: relative;
+        left: 9vw;
+    }
+    /* .contact-form {
+        height: 1000px;
+    } */
+    /* .information {
+        left: 30px;
+        top: 25px;
+    }
+    .form-box-2 {
+        width: 391px;
+        /* position: relative;
+        left: 10px; */
+    /* }
+    .form-box-3 {
+        /* display: flex;
+        justify-content: center; */
+    /* margin: 13px 0px;
+    }
+    .form-box-2 label {
+        width: 185px;
+    }
+    .form-box input, textarea {
+        width: 262px;
+    } */
+}

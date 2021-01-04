@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+:root {
+    --font1: 'Roboto', sans-serif;
+    --headingfont: 'Roboto Slab', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.HeadingFont {
+    font-family: var(--headingfont);
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #70b9d1;
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
+    /* overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 50px;
+    order: 2px solid darkblue;
+    border-radius: 40px;
+}
+
+.nav-item {
+    /* border: 2px solid black;
+    border-radius: 8px; */
+    margin: 0px 7px;
+    /* background-color: rebeccapurple; */
+}
+
+.dropdown-position {
+    right: 9px;
+    top: 2px;
+}
+.nav-item button{
+    font-family: 'Roboto Slab';
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgba(0,0,0,.55);
+}
+
+.FreeClass {
+    background-color: rebeccapurple;
+    position: relative;
+    top: 7px;
+}
+
+.Book-class-and-Form {
+    /* background-color: aquamarine; */
+    padding: 11px;
+    margin: 10px 0px;
+}
+
+.Book-class {
+    /* background-color: #99c7aa; */
+    padding: 5px 0px;
+    height: fit-content;
+}
+
+.Form {
+    /* background-color: brown; */
+    width: 50%;
+    padding: 10px;
+}
+
+.Form input {
+    margin: 6px 6px;
+    padding: 10px;
+    width: 340px;
+    height: 52px;
+    font-size: 18px;
+}
+
+.quote img {
+    height: 100%;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+
+
+.content{
+    margin-top: 65px;
+}
+
+
+
+
+
+/* ABOUT */
+.blank-div{
+    height: 66px;
+    /* background-color: red; */
+}
+#about {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 40px;
+}
+
+#TrainersHeading {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 40px;
+    /* margin: 0px 950px 40px 244px; */
+}
+
+.trainers {
+    display: flex;
+    width: 76vw;
+    margin: 22px 2px;
+    position: relative;
+    left: 13vw;
+}
+
+.col-lg-4 img {
+    vertical-align: middle;
+    border-radius: 75px;
+    position: relative;
+    left: 10vw;
+}
+
+.trainer-name {
+    display: flex;
+    justify-content: center;
+}
+
+.read-more-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* CATEGORIES */
+
+#categories {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 40px;
+}
+
+.all-cards-c {
+    display: flex;
+    margin: 25px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-c {
+    height: 200px;
+}
+
+.card-body-c {
+    margin: 20px;
+}
+
+.card-c img {
+    height: 120px;
+    margin: 10px 0px;
+}
+
+.card-text-c{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+/* OURBLOGS */
+
+#ourblogs {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 40px;
+}
+
+.blogs {
+    width: 70vw;
+    position: relative;
+    left: 14vw;
+}
+.card{
+    margin: 0px 10px;
+}
+/* .card img{
+    width: 286px;
+    height: 180px;
+} */
+.part-one-blogs, .part-two-blogs{
+    display: flex;
+    margin: 30px 0px;
+}
+.part-two-blogs{
+    right: 14vw;
+    position: relative;
+}
+.See-More {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTACT */
+
+.contactheading {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 30px;
+}
+
+#h2 {
+    margin-left: 20px;
+}
+
+.contact-form {
+    margin: 30px;
+    padding: 12px;
+    height: 72vh;
+    border: 2px solid black;
+    /* z-index: -1; */
+    /* background-color: rgb(190, 194, 186); */
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    font-family: 'Roboto Slab';
+    /* position: relative;*/
+}
+
+.form-box, .form-box-2 , .form-box-3{
+    z-index: 1;
+}
+
+.form-box input, textarea {
+    width: 50vw;
+    margin: 4px;
+    padding: 7px 9px;
+}
+
+.form-box-2 {
+    width: 28vw;
+    padding: 9px 4px;
+    margin: 1px;
+}
+
+.TextArea {
+    height: 20vh;
+    left: 3px;
+    position: relative;
+}
+
+.Submit-btn {
+    font-family: var(--font1);
+    font-size: 16px;
+    padding: 2px 4px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 34px;
+    width: 62px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Submit-btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.information {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 420px;
+    right: 25px;
+    margin: 0px 40px;
+}
+
+.info-content img {
+    vertical-align: middle;
+    position: relative;
+    top: 28px;
+    right: 45px;
+    width: 31px;
+    height: 29px;
+}
+
+/* .info-text{
+    font-family: 'Roboto Slab';
+} */
+
+/* FOOTER */
+
+footer {
+    background-color: #70b9d1;
+}
+
+.Copyright-Line {
+    letter-spacing: normal;
+}
+
+.icons img {
+    height: 20px;
+    margin: 2px;
+    position: relative;
+    left: 286px;
+    bottom: 40px;
+}
