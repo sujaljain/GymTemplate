@@ -32,12 +32,12 @@
         width: 27vw;
     } */
     /* CONTACT */
-    .contact-form {
-        height: 60vh;
-    }
+    /* .contact-form {
+        height: 600px;
+    } */
     .information {
-        left: 3vw;
-        bottom: 47vh;
+        bottom: 463px;
+        left: 55vw;
     }
 }
 
@@ -72,39 +72,39 @@
         margin: 35px -8vw;
     }
     .contact-form {
-        height: 103vh;
+        height: 900px;
     }
-    .form {
+    .m-form {
         position: relative;
         left: 20vw;
         width: 51vw;
     }
-    .form-box-2 {
+    .m-form-box-2 {
         padding: 16px 4px;
         margin: 4px 17px;
     }
-    .form-box-3 {
+    .m-form-box-3 {
         margin: 13px 0px;
         position: relative;
         left: 20vw;
     }
-    .form-box-1, .form-box-2, .form-box-3 {
+    .m-form-box-1, .m-form-box-2, .m-form-box-3 {
         width: 50vw;
         margin: 0px;
     }
     .information {
+        /* position: relative; */
         top: 8vh;
+        left: 25vw;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
 
 @media screen and (max-width: 473px) {
-    .Form input{
+    .Form input {
         width: 72vw;
     }
-    
-    
     /* ABOUT */
     .col-lg-4 img {
         left: 20vw;
@@ -126,44 +126,48 @@
         justify-content: center;
     }
     /* BLOGS */
-    .part-one-blogs{
+    .part-one-blogs {
         display: block;
     }
-    .part-two-blogs{
+    .part-two-blogs {
         display: none;
     }
     /* CONTACT */
     /* .contact-form{
         height: 148vh;
     } */
-    .form {
+    .m-form {
         left: 16vw;
     }
-    .form-box-3 {
+    .m-form-box-3 {
         position: relative;
         left: 9vw;
     }
     .contact-form {
         height: 1000px;
     }
-    /* .information {
-        left: 30px;
-        top: 25px;
+    .information {
+        /* position: relative; */
+        top: 8vh;
+        left: 2vw;
+        width: 277px;
+        font-size: 14px;
+        display: flex;
     }
-    .form-box-2 {
-        width: 391px;
-        /* position: relative;
-        left: 10px; */
-    /* }
-    .form-box-3 {
-        /* display: flex;
-        justify-content: center; */
-    /* margin: 13px 0px;
+}
+
+@media screen and (max-width: 400px) {
+    /* position: relative; */
+    .information {
+        left: -41px;
+        width: 277px;
+        font-size: 12px;
     }
-    .form-box-2 label {
-        width: 185px;
+}
+
+@media screen and (max-width: 350px) {
+    /* position: relative; */
+    .information {
+        width: 237px;
     }
-    .form-box input, textarea {
-        width: 262px;
-    } */
 }
