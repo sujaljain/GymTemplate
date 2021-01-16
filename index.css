@@ -49,11 +49,12 @@ nav {
     right: 9px;
     top: 2px;
 }
-.nav-item button{
+
+.nav-item button {
     font-family: 'Roboto Slab';
     font-weight: bolder;
     font-size: 22px;
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, .55);
 }
 
 .FreeClass {
@@ -88,27 +89,31 @@ nav {
     font-size: 18px;
 }
 
+/* .ErrorMsg { */
+    /* background-color: red;
+    width: 190px;
+    color: red;
+    margin: 0px 0px 5px 150px; */
+/* } */
+
+
 .quote img {
     height: 100%;
     width: 100%;
     margin: 20px 0px;
 }
 
-
-
-.content{
+.content {
     margin-top: 65px;
 }
 
-
-
-
-
 /* ABOUT */
-.blank-div{
+
+.blank-div {
     height: 66px;
     /* background-color: red; */
 }
+
 #about {
     display: flex;
     justify-content: center;
@@ -142,7 +147,7 @@ nav {
     justify-content: center;
 }
 
-.read-more-btn{
+.read-more-btn {
     display: flex;
     justify-content: center;
 }
@@ -175,11 +180,12 @@ nav {
     margin: 10px 0px;
 }
 
-.card-text-c{
+.card-text-c {
     display: flex;
     justify-content: center;
     font-size: 23px;
 }
+
 /* OURBLOGS */
 
 #ourblogs {
@@ -193,21 +199,26 @@ nav {
     position: relative;
     left: 14vw;
 }
-.card{
+
+.card {
     margin: 0px 10px;
 }
+
 /* .card img{
     width: 286px;
     height: 180px;
 } */
-.part-one-blogs, .part-two-blogs{
+
+.part-one-blogs, .part-two-blogs {
     display: flex;
     margin: 30px 0px;
 }
-.part-two-blogs{
+
+.part-two-blogs {
     right: 14vw;
     position: relative;
 }
+
 .See-More {
     display: flex;
     justify-content: center;
@@ -228,7 +239,7 @@ nav {
 .contact-form {
     margin: 30px;
     padding: 12px;
-    height: 72vh;
+    height: 600px;
     border: 2px solid black;
     /* z-index: -1; */
     /* background-color: rgb(190, 194, 186); */
@@ -239,18 +250,14 @@ nav {
     /* position: relative;*/
 }
 
-.form-box, .form-box-2 , .form-box-3{
-    z-index: 1;
-}
-
-.form-box input, textarea {
+.m-form-box input, textarea {
     width: 50vw;
     margin: 4px;
     padding: 7px 9px;
 }
 
-.form-box-2 {
-    width: 28vw;
+.m-form-box-2 {
+    /* width: 28vw; */
     padding: 9px 4px;
     margin: 1px;
 }
@@ -280,11 +287,13 @@ nav {
 }
 
 .information {
+    /* background-color: red; */
     display: flex;
     flex-direction: row-reverse;
     position: relative;
+    width: 318px;
+    left: 60vw;
     bottom: 420px;
-    right: 25px;
     margin: 0px 40px;
 }
 
